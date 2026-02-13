@@ -1,0 +1,9 @@
+(function() {
+    const implementors = Object.fromEntries([["octets",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"octets/struct.BufferTooShortError.html\" title=\"struct octets::BufferTooShortError\">BufferTooShortError</a>",0]]],["qlog",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"qlog/enum.Error.html\" title=\"enum qlog::Error\">Error</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"qlog/events/enum.EventCategory.html\" title=\"enum qlog::events::EventCategory\">EventCategory</a>",0],["impl&lt;'a&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"qlog/struct.HexSlice.html\" title=\"struct qlog::HexSlice\">HexSlice</a>&lt;'a&gt;",0]]],["quiche",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"quiche/enum.Error.html\" title=\"enum quiche::Error\">Error</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"quiche/h3/enum.Error.html\" title=\"enum quiche::h3::Error\">Error</a>",0]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":59,"fragment_lengths":[301,796,502]}
